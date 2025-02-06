@@ -8,9 +8,7 @@ dotenv.config();
 const app = express();
 
 // Configuração do CORS para permitir acesso de qualquer origem
-app.use(cors({
-     origin: 'https://portfolio-my8h.vercel.app'
-}));
+app.use(cors());
 
 app.use(express.json());
 
