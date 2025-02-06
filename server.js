@@ -10,7 +10,7 @@ const app = express();
 // Configuração do CORS para permitir acesso de qualquer origem
 app.use(cors({
     origin: 'https://portfolio-im1br3ysg-rickdev8s-projects.vercel.app/contact'
-));
+}));
 
 app.use(express.json());
 
