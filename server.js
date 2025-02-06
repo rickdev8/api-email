@@ -9,7 +9,7 @@ const app = express();
 
 // Configuração do CORS para permitir acesso de qualquer origem
 app.use(cors({
-    origin: 'https://portfolio-psi-pink-25.vercel.app'
+    origin: 'https://portfolio-pm7rffnkl-rickdev8s-projects.vercel.app/contact'
 }));
 
 app.use(express.json());
