@@ -7,9 +7,11 @@ dotenv.config();
 
 const app = express();
 
-// Configuração do CORS para permitir acesso de qualquer origem
+
 app.use(cors({
-    origin: 'https://portfolio-pm7rffnkl-rickdev8s-projects.vercel.app/contact'
+    origin: 'https://portfolio-exqkyk9ys-rickdev8s-projects.vercel.app',  
+    methods: ['GET', 'POST'], 
+    allowedHeaders: ['Content-Type', 'Authorization'],  
 }));
 
 app.use(express.json());
