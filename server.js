@@ -9,7 +9,7 @@ const app = express();
 
 
 app.use(cors({
-    origin: 'https://portfolio-gray-xi-20.vercel.app',  
+    origin: 'https://portfolio-wheat-one-63.vercel.app',  
     methods: ['GET', 'POST'], 
     allowedHeaders: ['Content-Type', 'Authorization'],  
 }));
